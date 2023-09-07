@@ -15,12 +15,11 @@ Rust Project
 
 You only clone the repository and run "cargo build" and then "cargo run".. that's it!
 
-## Usage
-```
+## more info
+
 - put the name of the crypto
 - prese Enter
 - You get the current value!
 
-## more info
-
+## More info
 HugoNex - https://hugonex.com - yo@hugonex.com
