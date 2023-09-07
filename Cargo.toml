@@ -1,5 +1,6 @@
 [package]
 name = "crypto_consult"
+authors = ["Hugo Nex", "Email <yo@hugonex.com>"]
 version = "0.1.0"
 edition = "2021"
 
