@@ -10,8 +10,11 @@ fn main() {
       }
 }
 
-fn get_precio(_moneda: &str) -> Result<String, ureq::Error> {
-  let body: String = ureq::get("http://example.com").call()?
-        .into_string()?;
+fn get_precio(moneda: &str) -> Result<String, ureq::Error> {
+  let body: String = ureq::get(&format!(
+    "https://api.coingecko.com/api/v3/coins/{}?localization=false",
+    moneda))
+    .call()?
+    .into_string()?;
     Ok(body)
 }
